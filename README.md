@@ -1,4 +1,4 @@
-FAQ Bot powered by DeepPavlov
+FAQ Bot powered by DeepPavlov. Live Helper Chat [configuration example](https://doc.livehelperchat.com/docs/bot/deeppavlov-faq)
 
 Build image with trained your data.
 
@@ -26,6 +26,8 @@ Response if you did not change train data
 ```json
 [[["very young?."],[0.0023965203802132793,0.0011658039174728067,0.0008657494625574156,0.0005414606203846541,0.0007059206448602602,0.0008255833104981557,0.0005902784679946099,0.0027601158497330015,0.0007642232438947259,0.0004863716305588563,0.0003268471415419398,0.0014544600835888503,0.0004896593450576205,0.9866270059016439],[13]]]
 ```
+
+Manual setup example.
 
 ```shell
 source ./env/bin/activate
