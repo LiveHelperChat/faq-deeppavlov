@@ -3,6 +3,8 @@ version: '3'
 services:
   faq:
     build: ./Dockerfiles/deep
+    container_name: deeppavlov-faq
+    image: deeppavlov-faq:latest
     ports:
       - "5000:5000"
     networks:
